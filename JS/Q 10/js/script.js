@@ -3,7 +3,7 @@
 // Não fiz 😥😮 //
 
 //Correção em Sala 👨‍🏫 //
-let n1 + parseInt(prompt("digite um número"))
+//let n1 + parseInt(prompt("digite um número"))
 
 var nimpar = 0
 
