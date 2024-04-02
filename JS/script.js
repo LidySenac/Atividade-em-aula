@@ -1,31 +1,21 @@
-// Questão 1 //
+// Questão 7 //
 
-let idade = parseInt(prompt("Idade"))
+console.log(true && true)
 
-if(idade >= 24){
-    alert('Pode entrar')
-}else if (idade >= 30 && idade<16){
-   alert('Pode entrar com os pais')
-}else{
-    alert('Não pode entrar')
-}
+console.log(true && false)
 
-// Questão 2//
+console.log(5>2 && 2<10)
 
-var n = prompt("Digite um numero");
-var total=n/2;
-if(n/2=0){
-    alert("Par");
-}
-if(n/2=1){
-    alert("Impar");
-}
-alert(total);
+console.log(10>2 || 5>6 )
 
+// Questão 8 //
 
-// Questão 3 //
-const m = 5
+/let g = 10
 
-if(m >=5){
-    console.log("M é maior que 5" + " valor de M = " + m)
-}
+do{
+    console.log(`valor de G: ${g}`)
+    g = g - 1
+}while(g > 1)
+
+// Questão 9 //
+
